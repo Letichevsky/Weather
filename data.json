@@ -1,0 +1,69 @@
+{ 
+"data": {
+    "location": {
+        "name": "London",
+        "region": "City of London, Greater London",
+        "country": "United Kingdom",
+        "lat": 51.52,
+        "lon": -0.11,
+        "tz_id": "Europe/London",
+        "localtime_epoch": 1698258215,
+        "localtime": "2023-10-25 19:23"
+        },
+    "current": {
+        "last_updated_epoch": 1698257700,
+        "last_updated": "2023-10-25 19:15",
+        "temp_c": 9, 
+        "temp_f": 48.2, 
+        "is_day": 0, 
+        "condition": {
+            "text": "Partly cloudy",
+            "icon": "//cdn.weatherapi.com/weather/64x64/night/116.png", 
+            "code": 1003 
+            }, 
+        "wind_mph": 2.2, 
+        "wind_kph": 3.6, 
+        "wind_degree": 30, 
+        "wind_dir": "NNE", 
+        "pressure_mb": 996, 
+        "pressure_in": 29.41, 
+        "precip_mm": 0, 
+        "precip_in": 0, 
+        "humidity": 87, 
+        "cloud": 25, 
+        "feelslike_c": 9.1, 
+        "feelslike_f": 48.5, 
+        "vis_km": 10, 
+        "vis_miles": 6, 
+        "uv": 1, 
+        "gust_mph": 1.5, 
+        "gust_kph": 2.3 
+    } 
+}, 
+"status": 200, 
+"statusText": "OK", 
+"headers": { 
+    "cache-control": "public, max-age=180", 
+    "content-type": "application/json" 
+    }, 
+    "config": {
+        "transitional": {
+            "silentJSONParsing": true, 
+            "forcedJSONParsing": true, 
+            "clarifyTimeoutError": false 
+            }, "adapter": [ "xhr", "http" ], 
+            "transformRequest": [ null ], 
+            "transformResponse": [ null ], 
+            "timeout": 0, 
+            "xsrfCookieName": "XSRF-TOKEN", 
+            "xsrfHeaderName": "X-XSRF-TOKEN", 
+            "maxContentLength": -1, 
+            "maxBodyLength": -1, 
+            "env": {}, 
+            "headers": {
+                "Accept": "application/json, text/plain, */*" 
+            },  
+            "method": "get", 
+            "url": "http://api.weatherapi.com/v1/current.json?key=42d5b67a0af94883968180027232510&q=London" }, 
+            "request": "[object XMLHttpRequest]" 
+}
